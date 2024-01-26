@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeesInfrastructureModel\EmployeesInfrastructureModel.csproj" />
+    <ProjectReference Include="..\EmployeesInfrastructure\EmployeesInfrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ManagerMethod\" />
+    <Folder Include="ManagerMethodInterface\" />
+  </ItemGroup>
+
+</Project>
